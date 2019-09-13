@@ -1,0 +1,228 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Verify one user from the List the users - Get request",
+        "description": "",
+        "id": "list-of-users-scenario;verify-one-user-from-the-list-the-users---get-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 438480301,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have the base URL",
+            "match": {
+              "location": "Scenarios.i_have_the_base_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2153665400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I send the GET request for \"/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users",
+                  "offset": 28
+                }
+              ],
+              "location": "Scenarios.i_send_the_get_request_for_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94313599,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should receive the correct response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "Scenarios.i_should_receive_the_correct_response_code_something(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15841500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should receive the correct response with one userName as \"Antonette\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Antonette",
+                  "offset": 60
+                }
+              ],
+              "location": "Scenarios.i_should_receive_the_correct_response_with_one_userName_as(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Make a new Post - Post request",
+        "description": "",
+        "id": "list-of-users-scenario;make-a-new-post---post-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4359200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have the base URL",
+            "match": {
+              "location": "Scenarios.i_have_the_base_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501406701,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I send the POST request for \"/posts\" with payload \"PostRequest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/posts",
+                  "offset": 29
+                },
+                {
+                  "val": "PostRequest",
+                  "offset": 51
+                }
+              ],
+              "location": "Scenarios.i_send_the_POST_request_for_with_payload(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3064101,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should receive the correct response code \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 44
+                }
+              ],
+              "location": "Scenarios.i_should_receive_the_correct_response_code_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Comment on a Post - Put Request",
+        "description": "",
+        "id": "list-of-users-scenario;comment-on-a-post---put-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1956801,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have the base URL",
+            "match": {
+              "location": "Scenarios.i_have_the_base_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 563280399,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I send the PUT request for \"/posts/1\" with payload \"PutRequest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/posts/1",
+                  "offset": 28
+                },
+                {
+                  "val": "PutRequest",
+                  "offset": 52
+                }
+              ],
+              "location": "Scenarios.i_send_the_PUT_request_for_with_payload(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2153901,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should receive the correct response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "Scenarios.i_should_receive_the_correct_response_code_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "List of users scenario",
+    "description": "         Here it should list the user and we verify it by verifying te status code and also that one of the user \n         exists from the list of users.",
+    "id": "list-of-users-scenario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Scenarios.feature",
+    "tags": []
+  }
+]

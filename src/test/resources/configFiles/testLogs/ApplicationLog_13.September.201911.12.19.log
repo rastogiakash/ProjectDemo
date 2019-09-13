@@ -1,0 +1,98 @@
+13/09/2019 23:12:19 automation Reading Environment configuration file
+13/09/2019 23:12:19 automation Reading src//test//resources//configFiles//testData//Config_Test.xlsx
+13/09/2019 23:12:20 automation Reading readEnviromentsUrls
+13/09/2019 23:12:20 automation Environment configuration file sucessfully readed
+13/09/2019 23:13:23 automation Response is  : <html class="no-js" lang="en-US">
+  <head>
+    <meta http-equiv="refresh" content="0"/>
+    <title>jsonplaceholder.typicode.com | 520: Web server is returning an unknown error</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <link id="cf_styles-css" rel="stylesheet" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection"/>
+    <style type="text/css">body{margin:0;padding:0}</style>
+  </head>
+  <body>
+    <div id="cf-wrapper">
+      <div class="cf-error-details-wrapper" id="cf-error-details">
+        <div class="cf-wrapper cf-error-overview">
+          <h1>
+            <span class="cf-error-type">Error</span>
+            <span class="cf-error-code">520</span>
+            <small class="heading-ray-id">Ray ID: 515beb9f9ee5dc4f • 2019-09-13 17:43:54 UTC</small>
+          </h1>
+          <h2 class="cf-subheadline">Web server is returning an unknown error</h2>
+        </div>
+        <div class="cf-section cf-highlight cf-status-display">
+          <div class="cf-wrapper">
+            <div class="cf-columns cols-3">
+              <div class="cf-column cf-status-item cf-browser-status" id="cf-browser-status">
+                <div class="cf-icon-error-container">
+                  <i class="cf-icon cf-icon-browser"/>
+                  <i class="cf-icon-status cf-icon-ok"/>
+                </div>
+                <span class="cf-status-desc">You</span>
+                <h3 class="cf-status-name">Browser</h3>
+                <span class="cf-status-label">Working</span>
+              </div>
+              <div class="cf-column cf-status-item cf-cloudflare-status" id="cf-cloudflare-status">
+                <div class="cf-icon-error-container">
+                  <i class="cf-icon cf-icon-cloud"/>
+                  <i class="cf-icon-status cf-icon-ok"/>
+                </div>
+                <span class="cf-status-desc">London</span>
+                <h3 class="cf-status-name">Cloudflare</h3>
+                <span class="cf-status-label">Working</span>
+              </div>
+              <div class="cf-column cf-status-item cf-host-status cf-error-source" id="cf-host-status">
+                <div class="cf-icon-error-container">
+                  <i class="cf-icon cf-icon-server"/>
+                  <i class="cf-icon-status cf-icon-error"/>
+                </div>
+                <span class="cf-status-desc">jsonplaceholder.typicode.com</span>
+                <h3 class="cf-status-name">Host</h3>
+                <span class="cf-status-label">Error</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cf-section cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+              <h2>What happened?</h2>
+              <p>There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.</p>
+            </div>
+            <div class="cf-column">
+              <h2>What can I do?</h2>
+              <h5>If you are a visitor of this website:</h5>
+              <p>Please try again in a few minutes.</p>
+              <h5>If you are the owner of this website:</h5>
+              <p>
+                <span>There is an issue between Cloudflare's cache and your origin web server. Cloudflare monitors for these errors and automatically investigates the cause. To help support the investigation, you can pull the corresponding error log from your web server and submit it our support team. Please include the Ray ID (which is at the bottom of this error page).</span>
+                <a shape="rect" href="https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520">Additional troubleshooting resources</a>
+.              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cf-error-footer cf-wrapper">
+          <p>
+            <span class="cf-footer-item">
+Cloudflare Ray ID:               <strong>515beb9f9ee5dc4f</strong>
+            </span>
+            <span class="cf-footer-separator">•</span>
+            <span class="cf-footer-item">
+              <span>Your IP</span>
+: 103.240.195.169            </span>
+            <span class="cf-footer-separator">•</span>
+            <span class="cf-footer-item">
+              <span>Performance &amp; security by</span>
+              <a shape="rect" id="brand_link" href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_footer" target="_blank">Cloudflare</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
