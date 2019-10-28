@@ -1,8 +1,8 @@
-13/09/2019 21:13:39 automation Reading Environment configuration file
-13/09/2019 21:13:39 automation Reading src//test//resources//configFiles//testData//Config_Test.xlsx
-13/09/2019 21:13:40 automation Reading readEnviromentsUrls
-13/09/2019 21:13:40 automation Environment configuration file sucessfully readed
-13/09/2019 21:13:45 automation Response is  : [
+25/09/2019 17:33:06 automation Reading Environment configuration file
+25/09/2019 17:33:07 automation Reading src//test//resources//configFiles//testData//Config_Test.xlsx
+25/09/2019 17:33:07 automation Reading readEnviromentsUrls
+25/09/2019 17:33:07 automation Environment configuration file sucessfully readed
+25/09/2019 17:33:11 automation Response is  : [
     {
         "id": 1,
         "name": "Leanne Graham",
@@ -234,3 +234,15 @@
         }
     }
 ]
+25/09/2019 17:33:11 automation Response is  : {
+    "userId": 1,
+    "id": 101,
+    "title": "vybpl aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+25/09/2019 17:33:12 automation Response is  : {
+    "userId": 1,
+    "id": 1,
+    "title": "title",
+    "body": "body"
+}

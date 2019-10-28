@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="4.059765">
-<testcase classname="List of users scenario" name="Verify one user from the List the users - Get request" time="2.963765">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="52.160399">
+<testcase classname="List of users scenario" name="Verify one user from the List the users - Get request" time="7.81976">
 <system-out><![CDATA[Given I have the base URL...................................................passed
 When I send the GET request for "/users"....................................passed
 Then I should receive the correct response code "200".......................passed
 And I should receive the correct response with one userName as "Antonette"..passed
 ]]></system-out>
 </testcase>
-<testcase classname="List of users scenario" name="Make a new Post - Post request" time="0.520213">
+<testcase classname="List of users scenario" name="Make a new Post - Post request" time="17.616903">
 <system-out><![CDATA[Given I have the base URL...................................................passed
 When I send the POST request for "/posts" with payload "PostRequest"........passed
 Then I should receive the correct response code "201".......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="List of users scenario" name="Comment on a Post - Put Request" time="0.575787">
+<testcase classname="List of users scenario" name="Comment on a Post - Put Request" time="26.723736">
 <system-out><![CDATA[Given I have the base URL...................................................passed
 When I send the PUT request for "/posts/1" with payload "PutRequest"........passed
 Then I should receive the correct response code "200".......................passed
